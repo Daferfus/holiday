@@ -1,0 +1,164 @@
+ /* VISTA MOVIL */
+
+        * { padding: 0px; 
+            margin: 0px; 
+            box-sizing: border-box; 
+            text-align: center;
+        }
+        h1{
+            display: none;
+        }
+
+        h2{
+            display: none;
+        }
+        body{
+            background: antiquewhite;  
+        }
+
+        div.area{
+            display: block;
+            margin-top: 2px;
+            /*esto nuevo*/
+           margin-left: 10em;
+            margin: 0 auto;
+            width: 60%;
+            height: 40%;
+            margin-bottom: 2px;   
+           
+           
+        }
+        form{
+            display: inline-block;
+           /* max-width: auto;*/         
+            
+             
+        }
+       form textarea{
+            width: 80%;
+            max-width: 300px;
+        }
+
+        /*.boton{
+            width: 40%;
+            height: 2.5em;
+            margin-left: 10%;
+            margin-right: 10%;
+            text-align: center;
+            background-color: blue;
+            color: white;
+            float: right;
+
+        }*/
+         .boton{
+        -moz-box-shadow:inset 0px 0px 50px 0px #cae3fc;
+	-webkit-box-shadow:inset 0px 0px 50px 0px #cae3fc;
+	box-shadow:inset 0px 0px 50px 0px #cae3fc;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #4197ee) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #4197ee 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#4197ee');
+	background-color:#79bbff;
+	-webkit-border-top-left-radius:31px;
+	-moz-border-radius-topleft:31px;
+	border-top-left-radius:31px;
+	-webkit-border-top-right-radius:31px;
+	-moz-border-radius-topright:31px;
+	border-top-right-radius:31px;
+	-webkit-border-bottom-right-radius:31px;
+	-moz-border-radius-bottomright:31px;
+	border-bottom-right-radius:31px;
+	-webkit-border-bottom-left-radius:31px;
+	-moz-border-radius-bottomleft:31px;
+	border-bottom-left-radius:31px;
+	text-indent:-1px;
+	border:3px solid #469df5;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:14px;
+	font-weight:bold;
+	font-style:italic;
+	height:33px;
+	line-height:33px;
+	width:88px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0px 0px 46px #287ace;
+
+    }
+    .boton:hover{
+        background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4197ee), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #4197ee 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4197ee', endColorstr='#79bbff');
+	background-color:#4197ee;
+    }
+    .boton:active{
+        position:relative;
+	top: 1px;
+    }
+
+        ul#mensajes{
+            margin: 0 auto;
+            width: 60%;
+            border: 1px solid black;
+            margin-bottom: 2px;       
+
+
+        }
+
+        span#mensaje, span#asunto{
+            border: none;
+            margin-bottom: 2px;
+            color: black;
+
+        }
+        
+        
+
+
+
+        /* VISTA PC - Dispositivos >=960 píxles */
+        @media (min-device-width: 760px){
+
+            
+            textarea{
+                width: 80%;
+
+            }
+            .boton{
+                /*
+                 width: 40%;
+                        height: 2.5em;
+                        margin-left: 10%;
+                        margin-right: 10%;
+                        text-align: center;
+                        /*
+                        background-color: #a9e2f3;*/
+                /*background-color: blue;
+                color: white;
+                float: right;
+        
+        
+                */
+                width: 40%;
+                float: right;
+                margin-bottom: 30px;
+
+            }
+            
+            h2{
+                color: black;
+            }
+
+            body{
+                margin-top: 2%;
+                margin-bottom: 2px;
+            }
+            
+            
+            
+
+
+        }/****/
+
+

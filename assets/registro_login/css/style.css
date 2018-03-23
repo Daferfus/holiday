@@ -1,0 +1,158 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+* { margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+/*Versión de Móvil*/
+body {
+    margin: 0 auto;
+    width: 100%;
+    background-image: url("../img/imagen1.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Comfortaa', cursive;
+    color: #666;
+
+    /*background-size: 2700px;*/
+}
+header {
+    text-align: center;
+}
+
+#sidebar {
+    display: none;
+}
+
+h1{
+    font-size: 2em;/* tocado*/
+    color: floralwhite;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+
+section#content { /*creado*/
+    padding: 15px;
+    color: white;
+    margin-left: 2rem;
+    width: 18rem;                
+    height: 17.3rem;
+    text-align:center;
+    background-color: black;
+    opacity:0.6;
+    border-radius: 0px;
+    border-radius: 50px 50px 0px 0px;
+}
+
+form aside#sidebar{
+    display: block;
+    padding: 15px;
+    color: white;
+    margin-left: 2.5rem;
+    width: 18rem;                
+    height: 21.2rem;
+    text-align:center;
+    background-color: black;
+    opacity:0.6;
+    border-radius: 0px;
+    margin-top: 5em;
+    border-radius: 50px 50px 0px 0px;
+
+}
+
+form input {
+    width: 18rem; 
+    height: 2.8rem;
+    background-color: darkgoldenrod;
+    border-radius: 0px 0px 80px 80px;
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-left: -1rem;
+    border: none;
+    background-color: orange; 
+}
+
+hr {
+    margin-top: 1em;
+}
+
+.precio {
+    margin-top: 15px;
+}
+
+#pagewrap {
+    padding: 5px;
+    width: auto;
+    margin: 20px auto;
+    margin-top: 1em;
+}
+
+p.titulo{
+    font-size: 1.75rem;
+}
+
+p.precio{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.txt_1{
+    margin-bottom: 1rem;
+}
+.txt_2{
+    margin-bottom: 1.5rem;
+}
+
+
+/*Versión de Tablet*/
+
+@media (min-width: 768px) {
+
+    h1{
+        text-align: center;
+        font-size: 4em;/* tocado*/
+        color:black;
+        font-family: 'Asap', sans-serif;
+        font-weight: bold;
+    }
+
+    section#content { /*creado*/    
+        height: 17.4rem;
+    }
+
+    form aside#sidebar{        
+        height: 18rem;
+    }
+
+    form input {
+        width: 22.5rem;  
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    section#content { /*creado*/    
+        margin-top: 4.9rem;
+        height: 17.4rem;
+    }
+
+    form aside#sidebar{        
+        height: 17.8rem;
+    }
+
+    form input {
+        width: 20rem;  
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    form input {
+        width: 23.7rem;  
+    }    
+}
+
+

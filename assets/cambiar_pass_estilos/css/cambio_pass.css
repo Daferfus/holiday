@@ -1,0 +1,55 @@
+/* @media screen and (max-width: 1023px) {}*/
+/*@media screen and (max-width: 600px) {}*/
+
+@media only screen and (min-width : 321px) {
+	body {background-color: #E0F2F7;}
+}
+
+@media only screen and (min-width : 723px) {
+ 
+	    body {background-color: #E0F2F7;}
+        
+        .media {
+        	/*box-shadow:0px 0px 4px -2px #000;*/
+                margin: 20px 0;
+                padding:30px;
+        }
+        .dp {
+        	border:10px solid #58AAB2;
+                transition: all 0.2s ease-in-out;
+        }
+        .dp:hover {
+        	border:2px solid #4B9DD8;
+                transform:rotate(360deg);
+                -ms-transform:rotate(360deg);  
+                -webkit-transform:rotate(360deg);  
+                /*-webkit-font-smoothing:antialiased;*/
+         }
+
+         input.btn { margin-top: 1em; margin-bottom: 1em;}
+
+         .pull-left {margin-bottom: -1em}
+
+         .container{
+                background-color: lightblue;
+                width: 58%;
+                border-radius: 99px;
+                margin-top: 3em;
+                margin-bottom: 3em;
+          }
+          
+          div.container img {
+               width: 100px;
+               height:100px;
+          }
+          
+          form img.logo_size {
+              width: 250px;
+              height:70px;
+              position: inherit;
+          }
+          
+          h1 {display: none;}
+          /*h2 {margin-top: -1em;}*/
+          h2{display: none;}
+}
